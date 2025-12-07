@@ -1,0 +1,17 @@
+Go back and make documentation consistent:
+
+Reflections - and implications --> real life scenarios, compare methods, what does it mean
+^ 
+Technically in depth
+What works - what doesnt
+What i struggled on
+
+
+Discuss trade-offs or limitations of the security measures used
+
+**Show understanding**
+
+(look for other libaries and excecute / experiment with new cells)
+Explore alternate solutions to problems
+
+Use screen shots, links ect.

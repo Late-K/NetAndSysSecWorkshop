@@ -31,7 +31,7 @@ Workshop Outline:
 
 ## Final Conclusion and Reflection
 
-Completing this lab significantly deepened my understanding of authentication and access control beyond simply “storing passwords securely.” While I had used hashing libraries in the past, I did not fully appreciate the security rationale behind specific design choices. Implementing entropy-based password scoring, dictionary checking, salted hashing, peppers, and TOTP demonstrated how each of these mechanisms addresses a specific threat model rather than being arbitrary security features.
+Completing this lab deepened my understanding of authentication and access control beyond just “storing passwords securely”.While I had used hashing libraries in the past, I did not fully appreciate the security rationale behind specific design choices. Implementing entropy-based password scoring, dictionary checking, salted hashing, peppers, and TOTP demonstrated how each of these mechanisms addresses a specific threat rather than being arbitrary security features.
 
 One of the key insights was recognising that security is not a single control, but a layered strategy that slows, limits, and ideally prevents an attacker’s progress at multiple stages. For example, using bcrypt alone is helpful, but combining it with per-user salts, an application-level pepper, and TOTP protects against very different attack vectors such as database leaks, rainbow tables, and brute-force attempts. It was particularly eye-opening to see how quickly MD5 and SHA-256 hashes can be cracked using even a basic dictionary attack.
 
